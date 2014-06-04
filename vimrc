@@ -1,6 +1,6 @@
 syntax enable
 set background=dark
-colorscheme molokai
+set number
 let g:solarized_termcolors=256
 
 
@@ -33,8 +33,9 @@ endif
 
 "Git以外のリポジトリにあるプラグインをを利用する場合
  NeoBundle 'http://svn.macports.org/repository/macports/contrib/mpvim/'
- NeoBundle 'https://bitbucket.org/ns9tks/vim-fuzzyfinder'
+"NeoBundle 'https://bitbucket.org/ns9tks/vim-fuzzyfinder'
 "
+NeoBundle "tomasr/molokai"
 
 "######表示設定######
 set number "行番号を表示する
