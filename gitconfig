@@ -1,23 +1,28 @@
 [user]
-			name = ariasyatyo 
-			email = satorupc1@gmail.com 
+	name = satoru matsumoto
+	email = matsumoto.satoru@aainc.co.jp
 [color]
-			ui = auto
+	ui = auto
 
 [mergetool]
-			keepBackup = true
+	keepBackup = true
 
 [core]
-			editor = vim
-			excludesfile = ~/.gitignore
+	editor = vim
+	excludesfile = ~/.gitignore
 
 [alias]
-			st = status
-			cm = commit
-			pl = pull
-			co = checkout
-			br = branch
+	st = status
+	cm = commit
+	pl = pull
+	co = checkout
+	br = branch
+	logg = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Cblue%cn%Cred%d %Creset%s %C(cyan)%b'
 
 [filter "media"]
-			clean = git-media-clean %f
-			smudge = git-media-smudge %f
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+
+[push]	
+	default = current
+
