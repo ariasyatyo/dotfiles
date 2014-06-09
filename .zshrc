@@ -1,3 +1,5 @@
+
+#for tmux
 if [ -z "$TMUX" -a -z "$STY" ]; then
 	if type tmuxx >/dev/null 2>&1; then
 		tmuxx
@@ -11,11 +13,17 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
 		screen -rx || screen -D -RR
 	fi
 fi
-
+#alias
 alias ll="ls -l"
 alias cp='cp -i'
 alias rm='rm -i'
 
+#for git
+alias gst = 'git status'
+alias gb = 'git branch'
+alias gl = 'git logg'
+
+#history
 HISTFILE=~/.zsh_history
 HISTSIZE=10000000
 SAVEHIST=$HISTSIZE
@@ -23,4 +31,4 @@ setopt extended_history
 setopt hist_ignore_dups
 setopt share_history
 
-
+export PATH="/usr/local/bin/:$PATH"
