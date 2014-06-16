@@ -17,11 +17,8 @@ fi
 alias ll="ls -l"
 alias cp='cp -i'
 alias rm='rm -i'
-
-#for git
-alias gst = 'git status'
-alias gb = 'git branch'
-alias gl = 'git logg'
+alias startweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k start'
+alias restartweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k restart'
 
 #history
 HISTFILE=~/.zsh_history
