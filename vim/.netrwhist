@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/matsumotosatoru/dev/monipla2_vagrant/vendor/bundle'
+let g:netrw_dirhist_2='/Users/matsumotosatoru/dotfiles/vim/neobundle.vim'
+let g:netrw_dirhist_3='/Users/matsumotosatoru/dotfiles/vim/vimproc'
+let g:netrw_dirhist_4='/Users/matsumotosatoru/work/vagrant-php-symfony2-sandbox/cookbooks/nginx/recipes'
+let g:netrw_dirhist_5='/Users/matsumotosatoru/work/vagrant-php-symfony2-sandbox/cookbooks/nginx/templates/default'
