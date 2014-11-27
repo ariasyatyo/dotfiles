@@ -5,6 +5,9 @@ alias rm='rm -i'
 alias startweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k start'
 alias restartweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k restart'
 alias stopweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k stop'
+alias va='cd ~/dev/monipla2_vagrant'
+alias vash='vagrant ssh'
+alias vau='vagrant up'
 
 #history
 HISTFILE=~/.zsh_history

@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/matsumotosatoru/dev/monipla2_vagrant/site-cookbooks/httpd/recipes'
 let g:netrw_dirhist_2='/Users/matsumotosatoru/dev/monipla2_vagrant/cookbooks'
+let g:netrw_dirhist_3='/Users/matsumotosatoru/dev/monipla2_vagrant/site-cookbooks/php54/recipes'
+let g:netrw_dirhist_4='/Users/matsumotosatoru/dev/monipla2_vagrant/cookbooks/yum-ius'
+let g:netrw_dirhist_5='/Users/matsumotosatoru/dev/monipla2_vagrant/cookbooks/yum-ius/recipes'
+let g:netrw_dirhist_6='/Users/matsumotosatoru/dev/monipla2_vagrant/site-cookbooks/yumi_repo/recipes'
+let g:netrw_dirhist_7='/Users/matsumotosatoru/dev/monipla2_vagrant/nodes'
