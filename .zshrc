@@ -8,6 +8,8 @@ alias stopweb='sudo /usr/local/Cellar/httpd/2.2.25/sbin/apachectl -k stop'
 alias va='cd ~/dev/monipla2_vagrant'
 alias vash='vagrant ssh'
 alias vau='vagrant up'
+alias gprb='git-prune-remote-branch'
+
 
 #history
 HISTFILE=~/.zsh_history

@@ -6,5 +6,6 @@ set tabstop=4
 set autoindent
 set expandtab
 set shiftwidth=4
+set listchars=tab:>-
 syntax on
-
+inoremap <silent> jj <ESC>

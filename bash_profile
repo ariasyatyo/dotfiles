@@ -8,3 +8,4 @@ export GOPATH=$HOME/.go
 alias ll="ls -l"
 alias cp='cp -i'
 alias rm='rm -i'
+eval "$(rbenv init -)"
