@@ -34,3 +34,9 @@ PROMPT="
  export LSCOLORS=gxfxxxxxcxxxxxxxxxgxgx
  export LS_COLORS='di=01;36:ln=01;35:ex=01;32'
  zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'ex=32'
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/matsumotosatoru/.gvm/bin/gvm-init.sh" ]] && source "/Users/matsumotosatoru/.gvm/bin/gvm-init.sh"
+
+export LSCOLORS=cxfxcxdxbxegedabagacad
+alias ls="ls -G"

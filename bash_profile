@@ -9,3 +9,6 @@ alias ll="ls -l"
 alias cp='cp -i'
 alias rm='rm -i'
 eval "$(rbenv init -)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/matsumotosatoru/.gvm/bin/gvm-init.sh" ]] && source "/Users/matsumotosatoru/.gvm/bin/gvm-init.sh"
