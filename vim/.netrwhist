@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/matsumotosatoru/dev/brandco_vagrant/cookbooks/aa_php55/recipes'
+let g:netrw_dirhist_2='/Users/matsumotosatoru/Library/Developer/Xcode/DerivedData/monipla-gtlnshkamksnachczefhloxvofrf/Build/Products/Debug-iphonesimulator/monipla.app'
+let g:netrw_dirhist_3='/Users/matsumotosatoru/dev/askul_new_ec/config/deploy'
+let g:netrw_dirhist_4='/Users/matsumotosatoru/dev/awt_manager/config'
+let g:netrw_dirhist_5='/Users/matsumotosatoru/dev/awt_manager/provision'
+let g:netrw_dirhist_6='/Users/matsumotosatoru/dev/awt_manager/provision/nginx'
+let g:netrw_dirhist_7='/Users/matsumotosatoru/.git'
